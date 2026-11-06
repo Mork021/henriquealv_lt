@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.tfccavebiomes.mixin",
+  "plugin": "dev.tfccavebiomes.mixin.TFCCaveBiomesMixinPlugin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "tfccavebiomes.refmap.json",
+  "mixins": [
+    "BiomeSourceMixin",
+    "ChunkAccessMixin",
+    "RegionBiomeSourceMixin",
+    "TFCBiomesMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
